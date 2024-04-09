@@ -1,0 +1,466 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1b1e24;
+}
+
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/* ====== header css starts here ====== */
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.nav-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.nav-bar-container > a > img{
+    height: 80px;
+    width: 110px;
+}
+.nav-bar-list{
+    display: flex;
+}
+.nav-bar-list > li > a{
+    padding: 0 15px;
+    z-index: 1;
+}
+.nav-bar-list > li:first-child > a{
+    color: #fff;
+}
+.off-white{
+    color: rgba(255,255,255,.5);
+}
+.off-white:hover{
+    color: rgba(255,255,255,.75);
+}
+
+.section-header{
+    background-image: url(../images/home-page/img1.jpg);
+    height: 720px;
+    width: 100%;
+    padding: 0;
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.section-header > .container{
+    max-width: 20%;
+    text-align: center;
+    margin: 250px 220px;
+}
+.section-header > .container > h1{
+    text-transform: uppercase;
+    font-size: 80px;
+    color: #efb624;  
+    letter-spacing: 2px;
+}
+
+
+/* ====== header css ends here ====== */
+
+
+
+
+
+/* ====== services css starts here ====== */
+
+#services{
+    /* margin-top: 720px; */
+    top: 0;
+    left: 0;
+    background-color: #f8f9fa;
+}
+.services-heading{
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 50px;
+}
+.services-heading > h1{
+    font-size: 35px;
+}
+.services-heading > p{
+    color: #868282;
+}
+.services-container{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+.services-section{
+    height: 500px;
+    width: 354px;
+    margin: 0 15px;
+    border: solid;
+    border-color: #EBE9E9;
+    border-width: 2px;
+    border-radius: 15px;
+    background-color: #fff;
+}
+.services-content{
+    padding: 20px;
+}
+.services-img > a > img{
+    width: 100%;
+    border-radius: 12px;
+}
+.services-content > h3{
+    color: #e68b0de8;  
+    padding: 20px 0;
+}
+.services-content > p{
+    padding: 15px 0;
+}
+
+/* ====== services css ends here ====== */
+
+
+
+/* ====== about-us css starts here ====== */
+
+.about-us > .container{
+    padding: 100px 0;
+}
+.about-us-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 120px 0;
+}
+.about-content{
+    margin: 0 70px;
+    width: 40%;
+}
+.about-content > h1{
+    padding: 30px 0;
+    font-size: 35px;
+}
+.about-content > p{
+    line-height: 30px;
+    color: #868282;
+}
+.about-img > a > img{
+    height: 280px;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-team{
+    margin-right: 180px;
+}
+
+
+
+/* ====== about-us css ends here ====== */
+
+
+
+
+/* ====== amenities css starts here ====== */
+
+.amenities{
+    background-color: #efb624;
+}
+.amenities-heading{
+    text-align: center;
+    padding-top: 100px;
+}
+.amenities-heading > h1{
+    font-size: 30px;
+}
+.amenities-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 130px 0;
+}
+.amenities-type{
+    height: 300px;
+    width: 350px;
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+.amenities-type-content{
+    padding: 50px 0;
+}
+.amenities-type-content > i{
+    color: #e68b0de8; 
+}
+.amenities-type-content > h5{
+    padding: 20px 0;
+    font-size: 18px;
+}
+.amenities-type-content > p{
+    line-height: 25px;
+    color: #868282;
+    padding: 0 15px;
+}
+
+
+/* ====== amenities css ends here ====== */
+
+
+
+/* ====== portfolio css starts here ====== */
+
+#portfolio > .container{
+    padding: 120px 0;
+}
+.portfolio-content{
+    padding-bottom: 100px;
+}
+.portfolio-content{
+    text-align: center;
+}
+.portfolio-content > h1{
+    font-size: 35px;
+}
+.portfolio-img > a > img{
+    height: 200px;
+    width: 260px;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+.portfolio-img-section{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+}
+
+
+/* ====== portfolio css ends here ====== */
+
+
+
+/* ====== team css starts here ====== */
+
+
+#team{
+    background-color: #f8f9fa;
+}
+.team-heading{
+    text-align: center;
+    padding: 110px 0;
+}
+.team-heading > h1{
+    font-size: 40px;
+}
+
+
+
+
+.team-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.team-img{
+    margin: 15px;
+    background-color: #fff;
+}
+.team-img > img{
+    height: 320px;
+}
+.team-img > h3{
+    text-align: center;
+    padding-top: 35px;
+}
+.team-img > h5{
+    text-align: center;
+    padding-bottom: 35px;
+}
+
+
+/* ====== team css ends here ====== */
+
+
+
+/* ====== price css starts here ====== */
+
+
+#price {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+#price > h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+#price > p{
+    text-align: center;
+}
+
+
+
+.price-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.join-now {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.join-now:hover {
+    background-color: #555;
+}
+
+
+/* ====== price css ends here ====== */
+
+
+
+
+
+/* ====== contact page starts here ====== */
+
+#contact > h2{
+    font-size: 40px;
+    text-align: center;
+}
+#contact > p{
+    text-align: center;
+}
+
+
+#contact{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.contact-form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+.submit{
+    background-color: #e68b0de8;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: #af6b0de8;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ====== contact page ends here ====== */
+
+
+
+
+
+/* ====== footer css starts here ====== */
+
+#footer{
+    background-color: #232323;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 60px;
+    margin-top: auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-content > p{
+    color: #fff;
+}
+.social-media-icons-list{
+    display: flex;
+}
+.social-media-icons-list > li{
+    padding: 0 15px;
+}
+.social-media-icons-list > li > a > i{
+    color: #fff;
+}
+
+
+/* ====== footer css ends here ====== */

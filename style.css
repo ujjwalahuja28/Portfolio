@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+/* header css starts here */
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    background: rgb(22,21,43);
+    background: linear-gradient(90deg, rgba(22,21,43,1) 0%, rgba(61,27,57,1) 78%, rgba(57,89,83,1) 100%);
+    /* background-color: #343a40; */
+ 
+}
+
+.navbar-nav > li{
+    padding: 0 20px;
+}
+
+.navbar-nav > li > a{
+    position: relative;
+}
+
+.navbar-nav > li > a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    margin-left: 9px;
+    /* background-color: rgba(0,212,255,1); */
+    /* background-color: rgba(29,148,125,1); */
+    background-color: #20ccaa;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav > li:hover a::after{
+    width: 50%;
+    opacity: 1;
+}
+
+/* header css ends here */
+
+
+/* home-page css starts here */
+
+#home-page{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,62,121,1) 78%, rgba(29,148,125,1) 100%);
+    /* background: linear-gradient(135deg, #4158d0, #c850c0); */
+}
+
+#home-page > .container-fluid > .row{
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px){
+    #home-page > .container-fluid > .row{
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1327px){
+    .home-page-text > h1{
+        font-size: 31px;
+    }
+    
+    .home-page-text > h2{
+        font-size: 22px;
+    }
+}
+
+/* home-page css ends here */
+
+
+/* about css starts here */
+
+.about-heading{
+    position: relative;
+}
+
+.about-heading::after {
+    content: '';
+    width: 12.5%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 1.5em; 
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .about-heading::after {
+        width:22%; 
+        margin-top: 1.5em;
+    }  
+}
+
+.btn:hover > a{
+    color: #fff;
+}
+
+.btn > a > i{
+    height: 10px;
+    width: auto;
+}
+
+.btn:focus, .btn:active {
+    outline: none !important; 
+    box-shadow: none !important; 
+}
+
+
+.resume-button-mobile {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .resume-button-desktop {
+        display: none;
+    }
+
+    .resume-button-mobile {
+        display: block;
+    }
+}
+
+
+/* about css ends here */
+
+
+/* projects css starts here */
+
+.projects-heading{
+    position: relative;
+}
+
+.projects-heading::after {
+    content: '';
+    width: 9.5%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 1.5em; 
+}
+
+@media only screen and (max-width: 768px) {
+    .projects-heading::after {
+        width:17%; 
+        margin-top: 1.5em;
+    }
+}
+
+.btn-close {
+    color: #fff; 
+    opacity: 1; 
+}
+
+.btn-close:hover {
+    opacity: 0.75; 
+}
+
+/* projects css ends here */
+
+
+/* contact-page css starts here */
+
+.contact-heading{
+    position: relative;
+}
+
+.contact-heading::after {
+    content: '';
+    width: 13.7%;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 50%; 
+    transform: translateX(-50%); 
+    margin-top: 1.5em; 
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-heading::after {
+        width:24%; 
+        margin-top: 1.5em;
+    }
+}
+
+/* contact-page css ends here */
+
+
+/* footer css starts here */
+
+.social-media-links{
+    text-align: end;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer-content{
+        padding-top: 15px; 
+    }
+
+    .social-media-links{
+        text-align: start;
+        padding: 15px 0;
+    }
+}
+
+/* footer css ends here */

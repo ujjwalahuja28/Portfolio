@@ -1,0 +1,899 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+/* ====== header css starts here ====== */
+
+.header{
+    background-color: transparent;
+    z-index: 99;
+    position: relative;
+}
+.header-list >li >a{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+}
+.header-list > li > span{
+    /* color: #fff; */
+}
+.header-list > li{
+    padding: 0 12px;
+}
+.header-list > li >a:hover{
+    color: grey;
+}
+
+
+.header-list > li:nth-child(7){
+    border-left: 1px solid grey;
+    border-right: 1px solid gray;
+}
+
+.navbar-nav {
+    --bs-nav-link-padding-y: 0 !important;
+}
+
+/* ====== header css ends here ====== */
+
+
+/* ====== slider css starts here ====== */
+
+
+.section-slider{
+    /* position: relative; */
+    margin-top: -60px;
+    margin-bottom: -50px;
+}
+
+.opacity-full-slider{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: #1c1c1c;
+    z-index: 1;
+}
+
+.slider-img{
+    position: relative;
+}
+
+.slider-img > img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 750px;
+    object-fit: cover;
+}
+
+.slider-content{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 190px;
+}
+
+
+.slider-content > p{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.slider-content > h1{
+    font-weight: 600;
+    font-size: 70px;
+}
+
+.slider-content > a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 25px;
+    transition: all .4s ease-in-out;
+}
+
+.slider-content >a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+
+/* ====== slider css ends here ====== */
+
+
+/* ====== section-bg-img css starts here ====== */
+
+.bg-img{
+    height: 715px;
+}
+
+
+.section-bg-img{
+    background-image: url("../images/banner.jpg");
+    height: 715px;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 80px;
+}
+
+.head-content > h6{
+    font-weight: 500;
+    color: red;
+}
+
+.head-content > h2{
+    width: 80%;
+    font-weight: 600;
+}
+
+.head-content > p{
+    width: 85%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sub-content > p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.sub-content > h6{
+    font-weight: 600;
+}
+
+.sub-content > span{
+    font-size: 40px;
+    color: red;
+}
+
+/* ====== section-bg-img css ends here ====== */
+
+
+/* ====== section-easy-to-use css starts here ====== */
+
+.easy-head-content > h2{
+    font-weight: 600;
+}
+
+.top-header{
+    text-align: center;
+}
+
+.top-header > h2{
+    font-weight: 600q;
+}
+
+.easy-head-content > p{
+    font-size: 14.8px;
+    word-spacing: -1px;
+}
+
+/* ====== section-easy-to-use css ends here ====== */
+
+
+/* ====== section-read-more css starts here ====== */
+
+.read-more-img > img{
+    height: 450px;
+    /* position: relative; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.read-more-content > a{
+    font-size: 11px;
+    padding: 8px 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: 2px solid #fff;
+    color: #fff;
+    transition: all .5s ease-in-out;
+}
+
+.read-more-content > span{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.read-more-content > h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.read-more-content > p{
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.read-more-content > a > span i{
+    padding: 0 3px;
+    font-size: 13px;
+    color: #000;
+    background-color: #fff;
+    transition: all .8s ease-in-out;
+}
+
+.read-more-content > a:hover{
+    color: #000;
+    background-color: #fff;
+}
+
+.read-more-content > a:hover span>i{
+    color: #fff;
+    background-color: #000;
+}
+
+.img-details > img{
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+/* .read-more{
+    border: 3px solid green;
+} */
+
+/* ====== section-read-more css ends here ====== */
+
+
+/* ====== section-pictures css starts here ====== */
+
+.pictures-head-list >li a{
+    color: rgb(59, 58, 58);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pictures-head-list >li{
+    padding: 0 25px;
+}
+
+.all-pictures{
+    text-decoration: underline !important;
+    color: #000 !important;
+}
+
+.pictures-head-list >li a:hover{
+    text-decoration: underline;
+    color: #000;
+}
+
+.picture > img{
+    height: 300px;
+    width: 360px;
+}
+
+/* ====== section-pictures css ends here ====== */
+
+
+/* ====== section-laptop css starts here ====== */
+
+.laptop-left-content > a{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    padding: 8px 25px; 
+}
+
+/* ====== section-laptop css ends here ====== */
+
+
+/* ====== section-products css starts here ====== */
+
+.product-img > img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.products-content > h2{
+    font-weight: 600;
+}
+
+.box-item > i{
+    font-size: 40px;
+    color: grey;
+}
+
+.box-item-content{
+    padding-left: 40px;
+}
+
+.box-item-content > h4{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.box-item-content > p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ====== section-products css ends here ====== */
+
+
+/* ====== section-services css starts here ====== */
+
+.services-image-head{
+    padding-top: 80px;
+}
+
+.services-head > h6{
+    font-size: 13px;
+}
+
+.services-head > h1{
+    font-weight: 700;
+}
+
+.services-images{
+    padding-top: 100px;
+}
+
+.services-head > h1::after{
+    content: '';
+    height: 1.9px;
+    width: 100px;
+    margin-top: 60px;
+    margin-left: -175px;
+    background-color: red;
+    position: absolute;
+}
+
+.img-below-content > p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ====== section-services css ends here ====== */
+
+
+/* ====== section-dark-bg-img css starts here ====== */
+
+.section-dark-bg-img{
+    background-image: url("../images/homepage-9-bg-img5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.dark-content{
+    padding: 120px 0;
+}
+
+.creative-thinker-comp-img > img{
+    /* height: 450px; */
+    width: 100%;
+}
+
+.dark-bg-img-content > h1{
+    font-weight: 600;
+}
+
+
+.dark-bg-img-content > p{
+    font-size: 14px;
+}
+
+.dark-bg-img-list > li span{
+    color: red;
+}
+
+.dark-bg-img-list > li p{
+    font-size: 14px;
+}
+
+.dark-bg-img-content > a{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px 30px;
+    border: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.dark-bg-img-content > a span i{
+    /* color: #fff; */
+    padding: 5px 6px;
+    font-size: 10px;
+    transition: all .6s ease-in-out;
+}
+
+.dark-bg-img-content > a:hover{
+    border: 2px solid #fff !important;
+    background-color: transparent !important;
+    color: #fff !important;
+}
+
+.dark-bg-img-content > a:hover span>i{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+/* ====== section-dark-bg-img css ends here ====== */
+
+
+/* ====== section-about css starts here ====== */
+
+.section-about-img{
+    padding: 100px 0;
+}
+
+.about-img > img{
+    width: 100%;
+    /* height: 100%; */
+}
+
+.about-content-head{
+    padding-left: 70px;
+}
+
+.about-content > h6{
+    font-size: 14px;
+    color: red;
+}
+
+.about-content > h1{
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+
+.about-content > p{
+    font-size: 14px;
+}
+
+.about-content > a{
+    font-size: 12px;
+    padding: 10px 30px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: all .2s ease-in-out;
+}
+
+.about-content > a span i{
+    padding: 4px;
+    font-size: 10px;
+    width: 18px;
+    height: 18px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease-in-out;
+}
+
+.about-content > a:hover{
+    border: 2px solid #000 !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+
+.about-content > a:hover span>i{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+.about-content-box > span i{
+    font-size: 40px;
+}
+
+.about-box-item > h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.about-box-item > p{
+    font-size: 14px;
+}
+
+.about-content-box{
+    padding: 100px 0;
+    
+}
+
+/* ====== section-about css ends here ====== */
+
+
+/* ====== section-advantages css starts here ====== */
+
+.advantages-img > img{
+    /* width: 100%; */
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.advantages-content{
+    /* padding: 75px; */
+}
+
+.advantages-content > h6{
+    color: red;
+}
+
+.advantages-content > h1{
+    font-weight: 600;
+}
+
+.advantages-content > p{
+    font-size: 14px;
+    text-align: justify;
+}
+
+.advantages-content > a{
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: all .4s ease-in-out;
+}
+
+.advantages-content > a span i{
+    padding: 3px 4px;
+    transition: all .8s ease-in-out;
+}
+
+.advantages-content > a:hover{
+    border: 2px solid #000 !important;
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+.advantages-content > a:hover span>i{
+    color: #fff !important;
+    background-color: #000 !important;
+}
+
+/* ====== section-advantages css ends here ====== */
+
+
+/* ====== section-reviews css starts here ====== */
+
+.reviews-head{
+    padding: 100px 0;
+}
+
+.reviews-content > span{
+    font-size: 40px;
+}
+
+.reviews-content-number > h6{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.reviews-content-number > p{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ====== section-reviews css ends here ====== */
+
+
+/* ====== section-bg-img-fix-att css starts here ====== */
+
+.section-bg-img-fix-att{
+    background-image: url("../images/bg-img-fix-attachment.jpg");
+    height: 680px;
+    width: 100%;
+    background-size: cover;
+    background-position: 0% 0px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.opacity-full{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    background-color: #1c1c1c;
+}
+
+
+.fix-att-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fix-att-content > a img{
+    height: 80px;
+    width: 100%;
+}
+
+.fix-att-content > h2{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.fix-att-content > p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+}
+
+.abt-comp{
+    padding: 10px 25px;
+    font-weight: 600;
+    font-size: 12px;
+    border: 2px solid transparent;
+    transition: all .4s ease-in-out;
+}
+
+.abt-comp:hover{
+    border: 2px solid #fff !important;
+    background-color: transparent !important;
+    color: #fff !important; 
+}
+
+.abt-comp > span i{
+    padding: 5px 6px;
+    transition: all .8s ease-in-out;
+}
+
+.abt-comp:hover span>i{
+    color: #000 !important;
+    background-color: #fff !important;
+}
+
+/* ====== section-bg-img-fix-att css ends here ====== */
+
+
+/* ====== section-logo css starts here ====== */
+
+.logo-content{
+    padding: 100px 0;
+}
+
+
+/* swiper css starts here */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+
+/* swiper css ends here */
+
+
+
+
+/* ====== section-logo css ends here ====== */
+
+
+/* ====== section-latest-blogs css starts here ====== */
+
+.latest-blogs-first-content{
+    padding: 130px 0;
+}
+
+.blogs-heading > h6{
+    font-size: 12px;
+}
+
+.blogs-heading > h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.blogs-heading > h1::after {
+    content: ' ';
+    position: absolute;
+    height: 1px;
+    margin-left: -164px;
+    margin-top: 60px;
+    width: 98px;
+    background-color: orangered;
+}
+
+.blogs-img > img{
+    object-fit: cover;
+}
+
+.blogs-img-content > p:nth-child(2){
+    font-size: 11px;
+}
+
+.blogs-img-content > p:nth-child(3){
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.blogs-img-content > p:hover{
+    color: #ff214f; 
+}
+
+.blog-inner-content > p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.latest-blogs-img-content{
+    padding-bottom: 130px;
+}
+
+/* ====== section-latest-blogs css ends here ====== */
+
+
+/* ====== section-top-footer css starts here ====== */
+
+.top-footer-content > p{
+    font-size: 14px;
+}
+
+/* ====== section-top-footer css ends here ====== */
+
+
+/* ====== section-footer css starts here ====== */
+
+.footer-boxes{
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+.footer-inner-content > h6{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-inner-content > p{
+    font-size: 12px;
+    width: 95%;
+}
+
+.footer-img > img{
+    object-fit: cover;
+}
+
+.footer-img-content{
+    font-size: 12px;
+}
+
+.footer-inner-content > input{
+    font-size: 12px;
+    padding: 5px 0;
+    padding-left: 15px;
+    padding-right: 90px;
+    background-color: transparent;
+}
+
+.footer-inner-content > a {
+    padding: 7px 10px;
+    margin-left: -5px;
+    text-align: center;
+    padding-bottom: 6.5px;
+    padding-top: 3px;
+}
+
+.no-img{
+    font-size: 16px !important;
+}
+
+.bottom-footer-content > p{
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+/* ====== section-footer css ends here ====== */
+
+
+
+
+
+
+
+
+/* ====== section-advantages css starts here ====== */
+
+/* /--------- all advantage css here -----------/ */
+
+.all-advantage-details h6{
+    color: #E81D4F;
+    font-weight: 600;
+}
+.all-advantage-details h2{
+    font-size: 46px;
+    font-weight: 600;
+}
+.all-advantage-details p{
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+}
+.advantage-button{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 8px;
+    background-color: #131314;
+    border: none;
+}
+.advantage-button span{
+    padding-right: 6px;
+}
+
+/* ====== section-advantages css ends here ====== */
+
+
+
+
+
+
+
+
+
+
